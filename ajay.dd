@@ -1,0 +1,8 @@
+REM A slightly more advanced "Payload!" for Windows
+DELAY 3000
+REM Open the Run dialog
+WINDOWS r
+DELAY 1000
+REM Open powershell with our message
+STRING powershell "echo 'You are Hacked by me sachin kumar pandey your system is compromised and you are giving presentation on usb rubber ducky to Mr. Adithya Nakula your cloud computing teacher. Sachin Kumar Pandey Your System is Compromised/Hacked and You are Hacked By Me Please Contact Me Thank You.!'; pause"
+ENTER

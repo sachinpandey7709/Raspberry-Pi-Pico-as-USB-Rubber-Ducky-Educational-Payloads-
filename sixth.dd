@@ -1,0 +1,14 @@
+REM Rubber Ducky Payload to Open CMD and enter command DIR
+DELAY 500
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+STRING dir
+ENTER
+DELAY 2000
+STRING cls
+DELAY 500
+STRING exit
+ENTER

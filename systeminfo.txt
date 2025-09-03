@@ -1,0 +1,70 @@
+/*
+ * Generated with <3 by Dckuino.js, an open source project !
+ */
+
+#include "Keyboard.h"
+
+void typeKey(int key)
+{
+  Keyboard.press(key);
+  delay(50);
+  Keyboard.release(key);
+}
+
+/* Init function */
+void setup()
+{
+  // Begining the Keyboard stream
+  Keyboard.begin();
+
+  // Wait 500ms
+  delay(500);
+
+  delay(2000);
+
+  typeKey(KEY_LEFT_GUI);
+
+  delay(2000);
+
+  Keyboard.print("cmd");
+
+  delay(3000);
+
+  typeKey(KEY_RETURN);
+
+  delay(1000);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_RETURN);
+  Keyboard.releaseAll();
+
+  delay(4000);
+
+  Keyboard.print("cls");
+
+  delay(2000);
+
+  typeKey(KEY_RETURN);
+
+  delay(3000);
+
+  Keyboard.print("color a");
+
+  delay(2000);
+
+  typeKey(KEY_RETURN);
+
+  delay(3000);
+
+  Keyboard.print("systeminfo");
+
+  delay(2000);
+
+  typeKey(KEY_RETURN);
+
+  // Ending stream
+  Keyboard.end();
+}
+
+/* Unused endless loop */
+void loop() {}

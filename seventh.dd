@@ -1,0 +1,9 @@
+REM Rubber Ducky Payload to Open CMD and enter command DIR
+DELAY 500
+WINDOWS r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+STRING dir/s
+ENTER

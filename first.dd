@@ -1,0 +1,38 @@
+DELAY 5000
+Ctrl w
+DELAY 2000
+GUI r
+DELAY 500
+STRING msedge
+ENTER
+DELAY 1000
+STRING https://sachinpandey7709.github.io/profilecard.com/
+ENTER
+DELAY 1000
+CTRL T
+STRING https://sachinpandey7709.github.io/sachin-portfolio/
+ENTER
+DELAY 1000
+CTRL T
+STRING https://sachinpandey7709.github.io/Resume-Design/
+ENTER
+DELAY 1000
+CTRL T
+STRING https://sites.google.com/view/santoshkumarpandeyenterprise
+ENTER
+DELAY 1000
+CTRL T
+STRING https://web.whatsapp.com/
+ENTER
+DELAY 1000
+CTRL T
+STRING https://youtu.be/51oLYyi1Kco?list=PLauB8fnl7yshKG5UQ8qNYM8Y2vH6UMbaL
+ENTER
+DELAY 1000
+CTRL T
+STRING https://youtu.be/y91hgdNQ8YU
+ENTER
+DELAY 1000
+CTRL T
+STRING https://youtu.be/y91hgdNQ8YU
+ENTER

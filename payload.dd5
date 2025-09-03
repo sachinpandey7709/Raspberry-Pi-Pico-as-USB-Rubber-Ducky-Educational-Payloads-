@@ -1,0 +1,9 @@
+DELAY 1000
+Ctrl w
+DELAY 500
+GUI r
+DELAY 500
+STRING notepad
+ENTER
+DELAY 1000
+STRING I am working on the project of rubber ducky payload.
